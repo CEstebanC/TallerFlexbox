@@ -1,37 +1,49 @@
-body {
+ body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 0;
 }
+
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: hsl(0, 40%, 98%);
-    padding: 10px 20px;
-    border-bottom: 2px solid #efeff7;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-bottom: none;
 }
+
 .logo img {
     height: 40px;
 }
+
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 35px;
     margin: 0;
     padding: 0;
 }
+
 .nav-links a {
     text-decoration: none;
-    color: #eff3f1;
-    font-weight: bold;
+    color: #6b6b6b;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
+
 .lang-links {
     display: flex;
     gap: 10px;
 }
+
 .lang-links a {
     text-decoration: none;
-    color: #811313;
-    font-weight: bold;
+    color: #ffffff;
+    background-color: #8c8c8c;
+    font-weight: normal;
+    padding: 10px 16px;
+    border-radius: 0px;
+    font-size: 14px;
 }
