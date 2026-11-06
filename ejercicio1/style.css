@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(0, 40%, 98%);
+    padding: 10px 20px;
+    border-bottom: 2px solid #efeff7;
+}
+.logo img {
+    height: 40px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #eff3f1;
+    font-weight: bold;
+}
+.lang-links {
+    display: flex;
+    gap: 10px;
+}
+.lang-links a {
+    text-decoration: none;
+    color: #811313;
+    font-weight: bold;
+}
